@@ -1,0 +1,28 @@
+# Environment files — NUNCA subir al repo
+restaurant-backend/.env
+restaurant-frontend/.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+*.pyc
+
+# Django
+restaurant-backend/db.sqlite3
+restaurant-backend/staticfiles/
+restaurant-backend/media/
+
+# Node / Vue
+restaurant-frontend/node_modules/
+restaurant-frontend/dist/
+
+# OS
+.DS_Store
+Thumbs.db
