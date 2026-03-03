@@ -33,7 +33,7 @@
             <div class="grid-2">
               <div class="form-group">
                 <label class="form-label">Teléfono *</label>
-                <input v-model="form.phone" class="form-control" type="tel" placeholder="3000 0000" required :disabled="submitting" />
+                <input v-model="form.phone" class="form-control" type="tel" placeholder="6000 0000" required :disabled="submitting" />
                 <span v-if="errors.phone" class="field-error">{{ errors.phone }}</span>
               </div>
               <div class="form-group">
